@@ -2,7 +2,7 @@
 
 int main() {
 	int i;
-	for (i = 1; i <= 100; ++i) {
+	for (i = 1; i <= 99999999; ++i) {
 		if ((i % 3 == 0) && (i % 5 == 0)) {
 			printf("FizzBuzz\n");
 		} else if (i % 3 == 0) {
